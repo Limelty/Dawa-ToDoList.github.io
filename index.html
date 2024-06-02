@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e671ddd9a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="right">
+                <h1>TO-DO-LIST</h1>
+            </div>
+
+            <div class="center">
+                <ul>
+                    <li><a href="#Home"><b>Home</b></a></li>
+                    <li><a href="#Schedule"><b>Schedule</b></a></li>
+                    <li><a href="#Nontification"><b>Nontification</b></a></li>
+                    <li><a href="#Setting"><b>Setting</b></a></li>
+                </ul>
+            </div>
+
+            <div class="left">
+                <ul>
+                    <li><a href="#Friend"><b>Friend</b></a></li>
+                    <li><a href="#Profile"><b>Profile</b></a></li>
+                    <li>
+                        <a href="#Level"><b>Level : <span id="level-display">01</span></b></a>
+                        <div class="level-bar">
+                            <p style="font-size: 10px; font-weight: bold;" id="user-points"></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="To-do-box">
+           <nav>
+                <h1 style="font-size: 35px;">Dashboard:</h1>
+                <div class="container">
+                    <div class="right">
+                        <ul>
+                            <li><input type="text" name="" id="Todo-Name"></li>
+                            <li><input type="text" name="" id="Todo-inf"></li>
+                            <li><input type="date" id="Todo-date"></li>
+                            <li><input type="submit" value="Submit" id="submit-btn" style="background-color: aliceblue; width: 150px; height: 40px;" onclick="Add()"></li>
+                        </ul>
+                    </div>
+    
+                    <div class="left">
+                        <ul>
+                            <li><input type="button" value="" style="background-color: rgb(250, 39, 39);"></li>
+                            <li><input type="button" value="" style="background-color: rgb(250, 194, 39);"></li>
+                            <li><input type="button" value="" style="background-color: rgb(39, 183, 250);"></li>
+                            <li><input type="button" value="" style="background-color: rgb(39, 250, 74);"></li>
+                        </ul>
+                    </div>
+                </div>
+           </nav>
+           <div id="TO-DO"></div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+    <script src="script.js"></script>
+</html>

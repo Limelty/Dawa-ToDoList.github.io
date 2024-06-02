@@ -1,0 +1,40 @@
+//TO DO LIST APP ALGORITHM// (by: Blackbox :D)
+
+    //1. Create a list of tasks
+    //2. Create a function to add a task
+    //3. Create a function to remove a task
+    //4. Create a function to mark a task as complete
+    //5. Create a function to display the list of tasks
+    //6. Create a function to save the list of tasks to a file
+    //7. Create a function to load the list of tasks from a file
+    //8. Create a function to clear the list of tasks
+    //9. Create a function to exit the program
+    
+
+//ALGORITMA TO DO LIST APP//
+
+    ver (1.0):
+    //1. Membuat list tugas
+    //2. Membuat fungsi untuk menambahkan tugas
+    //3. Membuat fungsi untuk menghapus tugas
+    //4. Membuat fungsi untuk menandai tugas sebagai selesai
+    //5. Membuat fungsi untuk menampilkan list tugas
+    //6. Membuat fungsi untuk menyimpan list tugas ke file
+    //7. Membuat fungsi untuk memuat list tugas dari file
+    //8. Membuat fungsi untuk menghapus list tugas
+    //9. Membuat fungsi untuk keluar dari program
+
+    ver (2.0):
+    //1. Membuka to do list app (login/register ('Opsional'))
+    //2. Menambahkan to do list (input)
+    //3. Menghapus to do list (Delete)
+    //4. Mengubah to do list (update)
+    //5. Menampilkan to do list (output)
+    //6. Menampilkan to do list yg sudah selesai 
+    //7. Menampilkan to do list yg belom selesai
+    //8. Menampilkan to do list yg sudah dihapus
+    //9. Menampilkan to do list yg sudah diubah statusnya
+    //10. Jika user tidak mengerjakan to do list dalam kurun waktu yg sudah ditentukan maka diberikan alert dan mengurangi poin yg sudah 
+          dikumpulkan (opsional ketika login)
+    //11. Jika user mengerjakan to do list maka diberikan poin tambahan (opsional tergantung login)
+    //12. Jika to do list-nya mendekati waktu yg ditentukan maka diberikan notifikasi (reminder)

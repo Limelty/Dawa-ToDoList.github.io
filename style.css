@@ -1,0 +1,135 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(187, 250, 150);
+}
+
+/* *Nav* */
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: aliceblue;
+}
+
+header nav .center ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+header nav .center ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav .left ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+header nav .left ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav .left .level-bar{
+    padding-left: 10px;
+    width: 100px;
+    height: 10px;
+    background-color: red;
+    border-radius: 20px;
+}
+/* *Nav* */
+
+
+
+/* *Main* */
+main{
+    display: grid;
+    place-items: center;
+    margin-top: 15px;
+}
+
+main .To-do-box{
+    
+    width: 1400px;
+    height: auto;
+    padding: 15px 35px;
+    background-color: rgb(162, 241, 215);
+}
+
+main .To-do-box nav{
+    border-bottom: 5px solid;
+}
+
+main .To-do-box nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .To-do-box ul{
+    display: flex;
+    gap: 25px;
+}
+
+main .To-do-box ul li{
+    list-style: none;
+}
+
+main .To-do-box .right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .To-do-box .left{
+    align-items: center;
+}
+
+main .To-do-box .left ul li input{
+    width: 20px;
+    height: 20px;
+}
+/* *Main* */
+
+@media (max-width: 768px) {
+    header nav {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    header nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    header nav a {
+      padding: 10px;
+    }
+  
+    main {
+      margin-top: 20px;
+    }
+  
+   .todo-container {
+      max-width: 100%;
+      padding: 20px;
+    }
+  
+   .todo-inputs {
+      flex-direction: column;
+    }
+  
+   .todo-inputs ul {
+      gap: 10px;
+    }
+  
+   .todo-buttons {
+      margin-top: 10px;
+    }
+  }
