@@ -12,7 +12,7 @@ document.getElementById("Loginform").addEventListener("submit", (event) => {
         console.log("logged in")
         if (username.value === stroedUsername && password.value === storedPassword) {
             alert(`Login Successful, Welcome to the web ${username.value}!`)
-            window.location.href = "index.html"
+            window.location.href = "main.html"
         }else{
             alert('Login Failed')
         }
